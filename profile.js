@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", pageLoad());
 
 function pageLoad(){
     setDate();
-    setUTC();
+    setInterval(setUTC, 1000);
 }
 
 function setDate(){
