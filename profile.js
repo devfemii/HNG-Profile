@@ -6,7 +6,7 @@ function pageLoad(){
 }
 
 function setDate(){
-    const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const today = new Date();
     const weekDay = weekDays[today.getUTCDay()];
     document.querySelector("[data-testid='currentDayOfTheWeek']").textContent = weekDay;
